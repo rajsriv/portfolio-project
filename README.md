@@ -62,9 +62,8 @@ I'm a passionate developer who enjoys crafting meaningful user experiences and s
 
 ## 🤝 Let's Connect!
 
-- 📧 Email: yourname@example.com
+- 📧 Email: raj2005sriv@gmail.com
 - 🐱 GitHub: [github.com/rajsriv](https://github.com/rajsriv)
-- 💼 LinkedIn: [linkedin.com/in/yourprofile](https://linkedin.com/in/yourprofile)
 
 ---
 
