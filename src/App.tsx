@@ -65,7 +65,8 @@ function App() {
       tech: ['React', 'TypeScript', 'Tailwind CSS', 'Node.js'],
       image: 'https://images.pexels.com/photos/11035380/pexels-photo-11035380.jpeg?auto=compress&cs=tinysrgb&w=800&h=450&fit=crop',
       accent: 'from-emerald-400 to-cyan-600',
-      status: 'Live'
+      status: 'Live',
+      link: 'https://rajsriv.github.io/portfolio-project/'
     },
     {
       title: 'Python Bots',
@@ -73,7 +74,8 @@ function App() {
       tech: ['Python', 'Telegram APIs', 'VM', 'Session Authentication'],
       image: 'https://images.pexels.com/photos/60504/security-protection-anti-virus-software-60504.jpeg?auto=compress&cs=tinysrgb&w=800&h=450&fit=crop',
       accent: 'from-red-400 to-pink-600',
-      status: 'In Progress'
+      status: 'In Progress',
+      link: 'https://github.com/rajsriv?tab=repositories'
     },
     {
       title: 'Creative JavaScript Projects',
