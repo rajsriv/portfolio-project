@@ -12,7 +12,7 @@ function App() {
     const handleScroll = () => {
       setScrollY(window.scrollY);
       
-      const sections = ['hero', 'about', 'skills', 'projects', 'writing', 'contact'];
+      const sections = ['hero', 'about', 'skills', 'projects', 'Google', 'contact'];
       const currentSection = sections.find(section => {
         const element = document.getElementById(section);
         if (element) {
@@ -415,8 +415,8 @@ function App() {
         </div>
       </section>
 
-      {/* Writing Section */}
-      <section id="writing" className="py-24 relative">
+      {/* Google Section */}
+      <section id="Google" className="py-24 relative">
         <div className="absolute inset-0 bg-gradient-to-b from-gray-950 to-black" />
         <div className="max-w-6xl mx-auto px-6 relative">
           <div className="text-center mb-16">
@@ -431,8 +431,8 @@ function App() {
           </div>
           
           <div className="grid md:grid-cols-3 gap-8">
-            {Google.map((writing, index) => (
-              <div key={writing.title} className="group">
+            {Google.map((Google, index) => (
+              <div key={Google.title} className="group">
                 <div className="bg-gradient-to-br from-gray-950 to-black rounded-2xl p-6 border border-gray-800 hover:border-gray-600 transition-all duration-500 hover:transform hover:scale-105 relative overflow-hidden">
                   <div className="absolute top-4 right-4">
                     <FileText size={20} className="text-gray-600" />
@@ -440,15 +440,15 @@ function App() {
                   
                   <div className="space-y-4">
                     <div>
-                      <h3 className="text-xl font-bold text-white mb-2">{writing.title}</h3>
-                      <span className="text-sm text-purple-400 font-medium">{writing.type}</span>
+                      <h3 className="text-xl font-bold text-white mb-2">{Google.title}</h3>
+                      <span className="text-sm text-purple-400 font-medium">{Google.type}</span>
                     </div>
                     
-                    <p className="text-gray-400 leading-relaxed text-sm">{writing.description}</p>
+                    <p className="text-gray-400 leading-relaxed text-sm">{Google.description}</p>
                     
                     <div className="pt-2">
                       <span className="px-3 py-1 bg-gray-800 text-gray-300 text-xs rounded-full border border-gray-700">
-                        {writing.theme}
+                        {Google.theme}
                       </span>
                     </div>
                   </div>
