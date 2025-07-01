@@ -416,7 +416,7 @@ function App() {
       </section>
 
       {/* Google Section */}
-      <section id="Google" className="py-24 relative">
+      <section id="google" className="py-24 relative">
         <div className="absolute inset-0 bg-gradient-to-b from-gray-950 to-black" />
         <div className="max-w-6xl mx-auto px-6 relative">
           <div className="text-center mb-16">
