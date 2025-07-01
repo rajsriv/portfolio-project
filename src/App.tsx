@@ -55,7 +55,7 @@ function App() {
     { name: 'Web Development', level: 92, icon: Code, color: 'from-emerald-400 to-teal-600', description: 'React, JavaScript, TypeScript' },
     { name: 'Creative Problem Solving', level: 95, icon: Brain, color: 'from-purple-400 to-indigo-600', description: 'Innovative thinking & solutions (DSA)' },
     { name: 'Blender 3D modelling', level: 78, icon: Shield, color: 'from-red-400 to-pink-600', description: 'Low-poly Model development for easy web integration' },
-    { name: 'Technical Writing', level: 88, icon: BookOpen, color: 'from-yellow-400 to-orange-600', description: 'Documentation & storytelling' },
+    { name: 'Content Writiing', level: 88, icon: BookOpen, color: 'from-yellow-400 to-orange-600', description: 'Documentation/Articles/Blog Post' },
   ];
 
   const projects = [
@@ -78,9 +78,9 @@ function App() {
       link: 'https://github.com/rajsriv?tab=repositories'
     },
     {
-      title: 'Creative JavaScript Projects',
-      description: 'Experimental and creative projects that push the boundaries of what\'s possible with JavaScript, blending art and code.',
-      tech: ['Vanilla JS', 'Three.js', 'Canvas API', 'Web APIs', 'Creative Coding'],
+      title: 'Music Player Web-App',
+      description: 'Experimental and creative project that push the boundaries of what\'s possible with JavaScript, blending art and code.',
+      tech: ['Vanilla JS', 'Web APIs', 'Creative Coding', 'UI/UX'],
       image: 'https://images.pexels.com/photos/1181263/pexels-photo-1181263.jpeg?auto=compress&cs=tinysrgb&w=800&h=450&fit=crop',
       accent: 'from-purple-400 to-blue-600',
       status: 'Ongoing'
@@ -89,23 +89,18 @@ function App() {
 
   const writings = [
     {
-      title: 'The Blue Coat',
-      type: 'Novel (In Progress)',
-      description: 'A deep exploration of human emotions and psychological complexity through narrative storytelling.',
+      title: 'TuneBlend',
+      type: 'Music Player (In Progress)',
+      description: 'A HTML, CSS, Js (other possible libraries) integrated smooth fully functional music player.',
       theme: 'Psychology & Human Nature'
     },
     {
-      title: 'Tech & Society',
+      title: 'Content Writing',
       type: 'Article Series',
-      description: 'Examining the intersection of technology, psychology, and social dynamics in our digital age. Read at t.me/Raj_ke_lekh',
+      description: 'Examining the intersection of technology, psychology, and social dynamics in our digital age.',
       theme: 'Social Commentary and Literature'
-    },
-    {
-      title: 'Developer Insights',
-      type: 'Technical Blog',
-      description: 'Sharing learnings, challenges, and creative solutions from my development journey. Read at t.me/RajCodeDump (a collection of my coding/blender/design skills.)',
-      theme: 'Technical Writing'
     }
+    
   ];
 
   return (
@@ -422,9 +417,9 @@ function App() {
         <div className="max-w-6xl mx-auto px-6 relative">
           <div className="text-center mb-16">
             <h2 className="text-5xl md:text-6xl font-black bg-gradient-to-r from-white via-purple-400 to-yellow-400 bg-clip-text text-transparent mb-6 leading-tight">
-              Writing
+              Ideas
               <br />
-              & Stories
+              & Innovation
             </h2>
             <p className="text-gray-400 text-lg max-w-2xl mx-auto">
               Exploring human emotions and social themes through detailed storytelling
