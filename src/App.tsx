@@ -87,7 +87,7 @@ function App() {
     }
   ];
 
-  const writings = [
+  const Google = [
     {
       title: 'The Basics of Google Cloud Compute',
       type: 'G-CLoud Computing',
@@ -431,7 +431,7 @@ function App() {
           </div>
           
           <div className="grid md:grid-cols-3 gap-8">
-            {writings.map((writing, index) => (
+            {Google.map((writing, index) => (
               <div key={writing.title} className="group">
                 <div className="bg-gradient-to-br from-gray-950 to-black rounded-2xl p-6 border border-gray-800 hover:border-gray-600 transition-all duration-500 hover:transform hover:scale-105 relative overflow-hidden">
                   <div className="absolute top-4 right-4">
