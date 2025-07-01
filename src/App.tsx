@@ -53,8 +53,8 @@ function App() {
 
   const skills = [
     { name: 'Web Development', level: 92, icon: Code, color: 'from-emerald-400 to-teal-600', description: 'React, JavaScript, TypeScript' },
-    { name: 'Creative Problem Solving', level: 95, icon: Brain, color: 'from-purple-400 to-indigo-600', description: 'Innovative thinking & solutions' },
-    { name: 'Cybersecurity', level: 78, icon: Shield, color: 'from-red-400 to-pink-600', description: 'Security-first development' },
+    { name: 'Creative Problem Solving', level: 95, icon: Brain, color: 'from-purple-400 to-indigo-600', description: 'Innovative thinking & solutions (DSA)' },
+    { name: 'Blender 3D modelling', level: 78, icon: Shield, color: 'from-red-400 to-pink-600', description: 'Low-poly Model development for easy web integration' },
     { name: 'Technical Writing', level: 88, icon: BookOpen, color: 'from-yellow-400 to-orange-600', description: 'Documentation & storytelling' },
   ];
 
@@ -78,7 +78,7 @@ function App() {
     {
       title: 'Creative JavaScript Projects',
       description: 'Experimental and creative projects that push the boundaries of what\'s possible with JavaScript, blending art and code.',
-      tech: ['Vanilla JS', 'Canvas API', 'Web APIs', 'Creative Coding'],
+      tech: ['Vanilla JS', 'Three.js', 'Canvas API', 'Web APIs', 'Creative Coding'],
       image: 'https://images.pexels.com/photos/1181263/pexels-photo-1181263.jpeg?auto=compress&cs=tinysrgb&w=800&h=450&fit=crop',
       accent: 'from-purple-400 to-blue-600',
       status: 'Ongoing'
@@ -209,7 +209,7 @@ function App() {
               <p className="text-xl md:text-2xl text-gray-300 max-w-4xl mx-auto leading-relaxed animate-fade-in-up font-light" style={{ animationDelay: '0.4s' }}>
                 I'm <span className="text-emerald-400 font-semibold">Raj Srivastava</span>, a curious developer passionate about 
                 <span className="text-purple-400 font-semibold"> technology</span>, 
-                <span className="text-yellow-400 font-semibold"> psychology</span>, and 
+                <span className="text-yellow-400 font-semibold"> 3D modelling</span>, and 
                 <span className="text-pink-400 font-semibold"> storytelling</span>
               </p>
             </div>
