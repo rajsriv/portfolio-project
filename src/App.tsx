@@ -89,18 +89,23 @@ function App() {
 
   const writings = [
     {
-      title: 'TuneBlend',
-      type: 'Music Player (In Progress)',
-      description: 'A HTML, CSS, Js (other possible libraries) integrated smooth fully functional music player.',
-      theme: 'Psychology & Human Nature'
+      title: 'The Basics of Google Cloud Compute',
+      type: 'G-CLoud Computing',
+      description: 'Earned a skill badge by completing the The Basics of Google Cloud Compute quest, where i learned how to work with virtual machines (VMs), persistent disks, and web servers using Compute Engine.',
+      theme: 'https://www.cloudskillsboost.google/public_profiles/89558da5-cb30-471d-b649-0c7ab019592a/badges/16306063'
     },
     {
-      title: 'Content Writing',
-      type: 'Article Series',
-      description: 'Examining the intersection of technology, psychology, and social dynamics in our digital age.',
-      theme: 'Social Commentary and Literature'
+      title: 'Application and Network Infrastructure',
+      type: 'ARCADE Level-1 JUNE, 2025',
+      description: 'This set of labs helps you get practical experience deploying applications and managing cloud infrastructure on Google Cloud',
+      theme: 'https://www.cloudskillsboost.google/public_profiles/89558da5-cb30-471d-b649-0c7ab019592a/badges/16452989'
+    },
+    {
+      title: 'Google Security Operations - Deep Dive',
+      type: 'Chronicles Security Operation Platform',
+      description: 'Take the next steps in working with the Chronicle Security Operations Platform. Build on fundamental knowledge to go deeper on cusotmization and tuning.',
+      theme: 'https://www.cloudskillsboost.google/public_profiles/89558da5-cb30-471d-b649-0c7ab019592a/badges/16225603'
     }
-    
   ];
 
   return (
@@ -249,16 +254,15 @@ function App() {
               </h2>
               <div className="space-y-6 text-gray-300">
                 <p className="text-lg leading-relaxed">
-                  I specialize in <span className="text-emerald-400 font-semibold">web and app development</span> with 
-                  growing expertise in creative JavaScript projects. I love building meaningful tools that make a difference.
+                  Studying from <span className="text-emerald-400 font-semibold">Banaras Hindu University</span> with 
+                  growing expertise in creative web (HTML5,CSS & JavaScript) projects and web-apps (based on flutter). I enjoy building full-stack applications, experimenting with frontend interactions using JavaScript, Three.js, and WebAssembly, and working on systems that balance performance with user experience.
                 </p>
                 <p className="text-lg leading-relaxed">
-                  Beyond code, I explore <span className="text-purple-400 font-semibold">human emotions</span> through 
-                  dense, detailed writing. Currently working on my novel <span className="text-yellow-400 font-semibold">"The Blue Coat"</span> 
-                  and crafting articles on social and psychological themes.
+                 I’m also exploring the fundamentals of <span className="text-purple-400 font-semibold">cybersecurity—network protocols, ethical hacking, and secure design</span> and applying this knowledge to real-world projects. <span className="text-yellow-400 font-semibold">"Extremely intrested"</span> 
+                  I’ve built tools ranging from browser extensions to simulation-based systems. I believe in learning by building, and I'm always looking to push boundaries through hands-on problem-solving.
                 </p>
                 <p className="text-lg leading-relaxed">
-                  I'm exploring opportunities in <span className="text-pink-400 font-semibold">development and cybersecurity</span> where 
+                  I'm exploring opportunities in <span className="text-pink-400 font-semibold">Web development and Back-end tasks</span> where 
                   I can blend technical skill with empathy and creativity.
                 </p>
               </div>
@@ -417,12 +421,12 @@ function App() {
         <div className="max-w-6xl mx-auto px-6 relative">
           <div className="text-center mb-16">
             <h2 className="text-5xl md:text-6xl font-black bg-gradient-to-r from-white via-purple-400 to-yellow-400 bg-clip-text text-transparent mb-6 leading-tight">
-              Ideas
+              GOOGLE
               <br />
-              & Innovation
+              & Skills
             </h2>
             <p className="text-gray-400 text-lg max-w-2xl mx-auto">
-              Exploring human emotions and social themes through detailed storytelling
+              Learning latest industry ready tech. Cloud computing, VMs, SecOps Architecture & enrichment, Using compute engines and lots more.
             </p>
           </div>
           
