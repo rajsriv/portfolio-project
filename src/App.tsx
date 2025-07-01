@@ -60,7 +60,7 @@ function App() {
 
   const projects = [
     {
-      title: 'Interactive Web Applications',
+      title: 'Interactive Web Portfolio',
       description: 'Modern, responsive web applications built with React and TypeScript, focusing on user experience and performance optimization.',
       tech: ['React', 'TypeScript', 'Tailwind CSS', 'Node.js'],
       image: 'https://images.pexels.com/photos/11035380/pexels-photo-11035380.jpeg?auto=compress&cs=tinysrgb&w=800&h=450&fit=crop',
@@ -68,9 +68,9 @@ function App() {
       status: 'Live'
     },
     {
-      title: 'Security-First Tools',
-      description: 'Development tools and utilities with security best practices, exploring cybersecurity concepts through practical applications.',
-      tech: ['JavaScript', 'Security APIs', 'Encryption', 'Authentication'],
+      title: 'Python Bots',
+      description: 'Development tools and utilities with Telegram API for bot and web app development.',
+      tech: ['Python', 'Telegram APIs', 'VM', 'Session Authentication'],
       image: 'https://images.pexels.com/photos/60504/security-protection-anti-virus-software-60504.jpeg?auto=compress&cs=tinysrgb&w=800&h=450&fit=crop',
       accent: 'from-red-400 to-pink-600',
       status: 'In Progress'
@@ -95,13 +95,13 @@ function App() {
     {
       title: 'Tech & Society',
       type: 'Article Series',
-      description: 'Examining the intersection of technology, psychology, and social dynamics in our digital age.',
-      theme: 'Social Commentary'
+      description: 'Examining the intersection of technology, psychology, and social dynamics in our digital age. Read at t.me/Raj_ke_lekh',
+      theme: 'Social Commentary and Literature'
     },
     {
       title: 'Developer Insights',
       type: 'Technical Blog',
-      description: 'Sharing learnings, challenges, and creative solutions from my development journey.',
+      description: 'Sharing learnings, challenges, and creative solutions from my development journey. Read at t.me/RajCodeDump (a collection of my coding/blender/design skills.)',
       theme: 'Technical Writing'
     }
   ];
