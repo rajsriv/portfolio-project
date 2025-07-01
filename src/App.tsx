@@ -143,7 +143,7 @@ function App() {
             
             {/* Desktop Navigation */}
             <div className="hidden md:flex items-center space-x-8">
-              {['Home', 'About', 'Skills', 'Projects', 'Writing', 'Contact'].map((item, index) => (
+              {['Home', 'About', 'Skills', 'Projects', 'Google', 'Contact'].map((item, index) => (
                 <button
                   key={item}
                   onClick={() => scrollToSection(item === 'Home' ? 'hero' : item.toLowerCase())}
@@ -174,7 +174,7 @@ function App() {
           isMenuOpen ? 'opacity-100 visible transform translate-y-0' : 'opacity-0 invisible transform -translate-y-4'
         }`}>
           <div className="bg-black/95 backdrop-blur-xl border-b border-gray-800 px-6 py-6 space-y-4">
-            {['Home', 'About', 'Skills', 'Projects', 'Writing', 'Contact'].map((item) => (
+            {['Home', 'About', 'Skills', 'Projects', 'Google', 'Contacts'].map((item) => (
               <button
                 key={item}
                 onClick={() => scrollToSection(item === 'Home' ? 'hero' : item.toLowerCase())}
@@ -204,7 +204,7 @@ function App() {
             </div>
             <div className="overflow-hidden">
               <h1 className="text-6xl md:text-8xl font-black bg-gradient-to-r from-purple-400 via-yellow-400 to-white bg-clip-text text-transparent animate-fade-in-up tracking-tight" style={{ animationDelay: '0.2s' }}>
-                & Storyteller
+                & Designer
               </h1>
             </div>
             <div className="overflow-hidden">
@@ -212,7 +212,7 @@ function App() {
                 I'm <span className="text-emerald-400 font-semibold">Raj Srivastava</span>, a curious developer passionate about 
                 <span className="text-purple-400 font-semibold"> technology</span>, 
                 <span className="text-yellow-400 font-semibold"> 3D modelling</span>, and 
-                <span className="text-pink-400 font-semibold"> storytelling</span>
+                <span className="text-pink-400 font-semibold"> literature</span>
               </p>
             </div>
             <div className="flex flex-col sm:flex-row gap-6 justify-center items-center animate-fade-in-up" style={{ animationDelay: '0.6s' }}>
